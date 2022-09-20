@@ -125,7 +125,7 @@ const config = {
       },
       prism: {
         defaultLanguage: "dart",
-        theme: require("prism-react-renderer/themes/vsLight"),
+        theme: require("prism-react-renderer/themes/nightOwl"),
         darkTheme: require("prism-react-renderer/themes/nightOwl"),
         additionalLanguages: ["dart"],
       },
