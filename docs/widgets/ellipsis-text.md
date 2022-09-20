@@ -4,4 +4,10 @@ sidebar_position: 3
 
 # EllipsisText
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+Nullable Text with Ellipsis as default overflow
+
+```ts
+String? nullableString = "I can be null";
+
+child: EllipsisText(nullableString),
+```

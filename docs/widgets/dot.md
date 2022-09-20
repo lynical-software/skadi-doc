@@ -4,4 +4,20 @@ sidebar_position: 2
 
 # Dot
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+Create a customizable Dot.
+
+```dart
+    Dot(
+      margin: EdgeInsets.only(right: 16),
+    ),
+
+    Dot(
+      color: Colors.red, 
+      margin: EdgeInsets.only(right: 16),
+    ),
+    
+    Dot(
+      shape: BoxShape.rectangle,
+      size: 24,
+    ),
+```

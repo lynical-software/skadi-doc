@@ -4,4 +4,14 @@ sidebar_position: 1
 
 # ConditionalWidget
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+Build a widget based on a boolean condition.
+
+```dart
+    ConditionalWidget(
+        margin: EdgeInsets.all(8), //optional
+        padding: EdgeInsets.all(8), //optional
+        condition: false,
+        onTrue: () => const Text("Show when true"),
+        onFalse: () => const Text("Show when false"),
+    ),
+```

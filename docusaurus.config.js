@@ -1,13 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Skadi',
-  tagline: 'Flutter utilities package',
+  tagline: 'Flutter utilities packages for custom widgets and utilities function.',
   url: 'https://skadi.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -60,12 +57,12 @@ const config = {
         title: 'Skadi',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/snowflake.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'installation',
             position: 'left',
             label: 'Documentation',
           },
@@ -81,38 +78,42 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Popular Utilities',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'DeferDispose Mixin',
+                to: '/docs/defer-dispose',
+              },
+              {
+                label: 'SkadiFormMixin',
+                to: '/docs/skadi-form-mixin',
+              },
+              {
+                label: 'SkadiResponsive',
+                to: '/docs/skadi-responsive',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Popular Widgets',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LoadingOverlay',
+                to: '/docs/loading-overlay',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'SkadiAsyncButton',
+                to: '/docs/skadi-async-button',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'SkadiIconButton',
+                to: '/docs/skadi-icon-button',
               },
             ],
           },
           {
             title: 'More',
             items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/lynical-software/skadi',
@@ -123,9 +124,12 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Lynical, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        defaultLanguage: "dart",
+        theme: require("prism-react-renderer/themes/vsLight"),
+        darkTheme: require("prism-react-renderer/themes/nightOwl"),
+        additionalLanguages: ["dart"],
       },
+
     }),
 };
 

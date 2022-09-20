@@ -3,6 +3,9 @@
  * and scoped locally.
  */
 
+ .html {
+  font-family: 'Kantumruy Pro', sans-serif;
+ }
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
