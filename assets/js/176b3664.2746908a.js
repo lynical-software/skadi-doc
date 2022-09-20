@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkskadi_doc=self.webpackChunkskadi_doc||[]).push([[686],{659:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/skadi-doc/blog/tags/hola","allTagsPath":"/skadi-doc/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkskadi_doc=self.webpackChunkskadi_doc||[]).push([[8624],{1332:e=>{e.exports=JSON.parse('{"permalink":"/skadi-doc/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
