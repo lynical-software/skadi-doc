@@ -7,7 +7,7 @@ const config = {
   tagline: 'Flutter utilities packages for custom widgets and utilities function.',
   url: "https://lynical-software.github.io/",
   baseUrl: "/skadi-doc/",
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
